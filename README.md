@@ -28,7 +28,7 @@ A terraria mod to see all the items required for a crafting recipe, the relative
  - Added logger.
 
 **1.1.2**
- - Fixed some recipes not working bug.
+ - Fixed some mods causing some recipes to cause errors.
 
 **1.1.3**
  - Added extra checks for the same bug.
