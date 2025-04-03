@@ -1,0 +1,7 @@
+Allows to see recipe trees and creates a single recipe that crafts the final items out of the base ingredients directly.
+
+Press the keybind when hovering over an item to load its recipe, press it over the air to toggle the ui.
+
+It does work with modded items and recipes.
+
+If encountering issues, please turn on the "Enable Logging" setting, try to reproduce the issue (Ex: tree not showing up->try loading one or multiple recipes), then send the client.log file here: https://forms.gle/zViymB985HPGW9Xt8

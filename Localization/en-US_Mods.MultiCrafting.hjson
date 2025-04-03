@@ -1,0 +1,73 @@
+Keybinds.SetRecipe.DisplayName: Set Recipe/Show Tree
+
+Configs: {
+	CraftingConfig: {
+		DisplayName: Crafting Config
+
+		Headers: {
+			RecipeSettings: Recipe Settings
+			LineSettings: Line Settings
+			DebugSettings: Debug Settings
+		}
+
+		AllowWhenTyping: {
+			Label: Allow When Typing
+			Tooltip: ""
+		}
+
+		MaxIngredients: {
+			Label: Max Ingredients
+			Tooltip: Maximum amount of distinct ingredients a recipe can be made of
+		}
+
+		MaxCraftingSteps: {
+			Label: Max Crafting Steps
+			Tooltip: Maximum depth of a recipe
+		}
+
+		AllowBannerUse: {
+			Label: Allow Banner Use
+			Tooltip: Enables/disables use of banners in recipe (mainly useful with Fargo's)
+		}
+
+		StopWhenOwned: {
+			Label: Stop When Owned
+			Tooltip: Doesn't generate recipes of items you already own
+		}
+
+		VisualizeTree: {
+			Label: Visualize Tree
+			Tooltip: Increases lag when generating recipe, as well as percieved ingredients
+		}
+
+		GenerateRecipe: {
+			Label: Generate Recipe
+			Tooltip: Adds a recipe allowing you to make the item directly out of its ingredients
+		}
+
+		ShowOwnedOnTree: {
+			Label: Show Owned On Tree
+			Tooltip: Changes tree color based on if you do or not have the items
+		}
+
+		HorizontalLineThickness: {
+			Label: Horizontal Line Thickness
+			Tooltip: ""
+		}
+
+		VerticalLineThickness: {
+			Label: Vertical Line Thickness
+			Tooltip: ""
+		}
+
+		LineColor: {
+			Label: Line Color
+			Tooltip: ""
+		}
+
+		EnableLogging: {
+			Label: Enable Logging
+			Tooltip: Adds some logs to the client.log file
+		}
+	}
+}
