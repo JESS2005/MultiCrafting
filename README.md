@@ -10,6 +10,7 @@ A terraria mod to see all the items required for a crafting recipe, the relative
 - [ ] Controller support
 - [ ] Page select icons
 - [ ] Merge owned/not in the tree if it's the last step
+- [ ] Add localization for common languages
 ### Low Priority
 - [ ] favourite page
 - [ ] Rework recipe with a dict (faster)
