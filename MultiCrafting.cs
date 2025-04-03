@@ -14,7 +14,6 @@ using ReLogic.Content;
  * Add option to hide subtrees
  * selection of recipe (+reload recipe button)
  * show who drops/sells
- * favourite page
  * stop scrollwheel action
  * fix item list text
  * controller support
@@ -25,7 +24,7 @@ using ReLogic.Content;
  * rework recipe search with a dict (?)
  * avoid needless item destruction (check owned)
  * sort ingredients page
- * 
+ * favourite page
 */
 
 namespace MultiCrafting

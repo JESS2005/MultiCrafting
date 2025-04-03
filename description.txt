@@ -4,4 +4,6 @@ Press the keybind when hovering over an item to load its recipe, press it over t
 
 It does work with modded items and recipes.
 
+Now on github at: https://github.com/JESS2005/MultiCrafting
+
 If encountering issues, please turn on the "Enable Logging" setting, try to reproduce the issue (Ex: tree not showing up->try loading one or multiple recipes), then send the client.log file here: https://forms.gle/zViymB985HPGW9Xt8
