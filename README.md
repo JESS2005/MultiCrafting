@@ -1,4 +1,4 @@
-A terraria mod to see all the items required for a crafting recipe, the relative tree, and create a simple one-step recipe from the base ingredients
+A terraria mod to see all the items required for a crafting recipe, the relative tree, and create a simple one-step recipe from the base ingredients.
 
 ---
 # To do list
