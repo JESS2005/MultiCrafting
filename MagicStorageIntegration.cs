@@ -59,5 +59,9 @@ namespace MultiCrafting
         {
 			StorageGUI.RefreshUI = true;
         }
+
+		internal static int recCrafingDepth() {
+			return ModContent.GetInstance<MagicStorageConfig>().recursionCraftingDepth;
+        }
     }
 }

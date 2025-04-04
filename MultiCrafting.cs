@@ -193,6 +193,9 @@ namespace MultiCrafting
                 mainRecipe.AddIngredient(item.type,item.stack);
             }
             Main.NewText($"Added recipe for [i:{Result}]");
+            if (MagicStorageIntegration.Enabled&&MagicStorageIntegration.recCrafingDepth()!=0) {
+                Main.NewText("Magic storage's recursion crafting can cause conflict, it's suggested to either disable it or disable \"Generate Recipe\" in this mod's settings", Color.Red);
+            }
         }
 
 
