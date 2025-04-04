@@ -242,7 +242,7 @@ internal class RecipeDecomposer
                 //Recipe recipe = Main.recipe[i];
                 String EngName = ItemID.Search.GetName(recipe.requiredItem[0].type);
                 //                                             if true the found recipe is skipped, skips all the useless ones
-                if (recipe.createItem.type == itemType && !(EngName.Contains("Fence") || EngName.Contains("Wall") || EngName.Contains("Platform") || (!AllowBanners && EngName.Contains("Banner")))) {
+                if (recipe.createItem.type == itemType && !(EngName.Contains("Fence") || EngName.Contains("Wall") || EngName.Contains("Platform") || (!AllowBanners && EngName.Contains("Banner")) || recipe == MultiCraftingSystem.mainRecipe)) {
                     return recipe;
                 }
             }
