@@ -11,6 +11,7 @@ A terraria mod to see all the items required for a crafting recipe, the relative
 - [ ] Page select icons
 - [ ] Merge owned/not in the tree if it's the last step
 - [ ] Add localization for common languages
+- [ ] Show stations required for given step
 ### Low Priority
 - [ ] favourite page
 - [ ] Rework recipe with a dict (faster)
@@ -23,6 +24,7 @@ A terraria mod to see all the items required for a crafting recipe, the relative
 
 ## 1.1
  - Owned items now show up on the tree.
+ - Made client sided.
 
 **1.1.1**
  - Added logger.
@@ -33,4 +35,9 @@ A terraria mod to see all the items required for a crafting recipe, the relative
 **1.1.3**
  - Added extra checks for the same bug.
 ## 1.2
- - Added ingredients page
+ - Added ingredients page.
+
+**1.2.1**
+ - Locked scrollwheel.
+ - Added warning when using magic storage's recursive crafting.
+ - Fixed mod using it's own recipe.
