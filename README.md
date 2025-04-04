@@ -5,7 +5,6 @@ A terraria mod to see all the items required for a crafting recipe, the relative
 - [ ] Option to hide subtrees
 - [ ] Selection of recipes (+reload recipe button)
 - [ ] Show npc who drops/sells base item
-- [ ] Stop scrollwheel when used in UI
 - [ ] Fix items list text overflowing
 - [ ] Controller support
 - [ ] Page select icons
