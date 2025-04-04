@@ -85,6 +85,7 @@ namespace MultiCrafting {
 
             if (open&&mainPanel.IsMouseHovering) {
                 Main.LocalPlayer.mouseInterface = true;
+                PlayerInput.LockVanillaMouseScroll("RecipeViewer");
             }
         }
     }
