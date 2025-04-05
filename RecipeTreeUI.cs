@@ -301,15 +301,13 @@ namespace MultiCrafting {
                 } else if(_expandButton.ContainsPoint(evt.MousePosition)) {
                     _offset = new Vector2(evt.MousePosition.X - Width.Pixels, evt.MousePosition.Y-Height.Pixels);
                     ReSizing = true;
-               } else if (_notCanvas.ContainsPoint(evt.MousePosition)) {
+                } else if (openPage == 0&& _horizontalScrollbar.ContainsPoint(evt.MousePosition)) {
+                    HorizontalScrolling = true;
+                } else if (_verticalScrollbar.ContainsPoint(evt.MousePosition)) {
+                    VerticalScrolling = true;
+                } else if (this.ContainsPoint(evt.MousePosition)) {
                     _offset = new Vector2(evt.MousePosition.X - Left.Pixels, evt.MousePosition.Y - Top.Pixels);
                     Dragging = true;
-                } else if (openPage == 0) {
-                    if (_horizontalScrollbar.ContainsPoint(evt.MousePosition)) {
-                        HorizontalScrolling = true;
-                    } else if (_verticalScrollbar.ContainsPoint(evt.MousePosition)) {
-                        VerticalScrolling = true;
-                    }
                 }
             }
         }
