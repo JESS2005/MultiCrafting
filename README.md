@@ -11,6 +11,7 @@ A terraria mod to see all the items required for a crafting recipe, the relative
 - [ ] Merge owned/not in the tree if it's the last step
 - [ ] Add localization for common languages
 - [ ] Show stations required for given step
+- [ ] Fix scrollwheel still locked when in components page and ui closed
 ### Low Priority
 - [ ] favourite page
 - [ ] Rework recipe with a dict (faster)
