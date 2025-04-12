@@ -69,6 +69,10 @@ namespace MultiCrafting {
         private float zoom = 1f;
 
 
+        public void Show() {
+            open = !open;
+        }
+
         public override void OnInitialize() {
             mainPanel = new DraggableUIPanel();
             mainPanel.SetPadding(0);
@@ -81,9 +85,10 @@ namespace MultiCrafting {
         }
 
         public override void Update(GameTime gameTime) {
+            if (!open) return;
             base.Update(gameTime);
 
-            if (open&&mainPanel.IsMouseHovering) {
+            if (mainPanel.IsMouseHovering) {
                 Main.LocalPlayer.mouseInterface = true;
                 PlayerInput.LockVanillaMouseScroll("RecipeViewer");
             }

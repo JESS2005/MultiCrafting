@@ -25,9 +25,6 @@ using ReLogic.Content;
  * avoid needless item destruction (check owned)
  * sort ingredients page
  * favourite page
- * 
- * 
- * scroll wheel locked when closed in multiplayer??
 */
 
 namespace MultiCrafting
@@ -165,7 +162,7 @@ namespace MultiCrafting
 
             } else {
                 if (configs.VisualizeTree) {
-                    UISystem.instance.MenuBar.open = !UISystem.instance.MenuBar.open;
+                    UISystem.instance.MenuBar.Show();
                 }
             }
         }
