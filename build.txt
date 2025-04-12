@@ -1,5 +1,5 @@
 displayName = Recipe Viewer
 author = Jess
 weakReferences = MagicStorage@0.6.0.3
-version = 1.2.1
+version = 1.2.2
 side = Client
