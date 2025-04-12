@@ -25,6 +25,9 @@ using ReLogic.Content;
  * avoid needless item destruction (check owned)
  * sort ingredients page
  * favourite page
+ * 
+ * 
+ * scroll wheel locked when closed in multiplayer??
 */
 
 namespace MultiCrafting
@@ -133,11 +136,11 @@ namespace MultiCrafting
 
                 if (components.Count + groups.Count <= MultiCraftingSystem.maxRecipeLenght) {
                     if (configs.GenerateRecipe) {
-                        MultiCraftingSystem.AddCustomGroups(groups);
                         MultiCraftingSystem.AddCustomTiles(result.Tiles);
                         MultiCraftingSystem.AddCustomConditions(result.Conditions);
                         MultiCraftingSystem.AddCustomRecipe(itemHover.type, components);
                         RViewerLogger.LogMsg($"Added {components.Count} components");
+                        MultiCraftingSystem.AddCustomGroups(groups);
                         Recipe.FindRecipes(); //Refresh vanilla ui, avoids cheats
                         if (MagicStorageIntegration.Enabled) {
                             MagicStorageIntegration.RefreshStorageUI();
