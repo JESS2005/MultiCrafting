@@ -87,6 +87,7 @@ internal class RecipeDecomposer
                                         //Main.NewText($"You have {content[ingredient.type]} [i:{ingredient.type}]");
                                         //content += ContainsItem(storageUnused, itemID);
                                     }
+                                    AddToDictionary(groupsList,whichGroup,1);
                                 }
                                 int contentCount = getDictTotal(content);
                                 int resultAmount = recipe.createItem.stack; //how many results does one craft create
@@ -178,7 +179,7 @@ internal class RecipeDecomposer
         foreach (TreeStep itemStep in storedOrMissing)
         {
             int GroupIn = ItemInRecipeGroup(itemStep.itemId,MultiCraftingSystem.MyGroups);
-            if (GroupIn == -1)
+            if (true||GroupIn == -1)
             {
                 result.Add(new Item(itemStep.itemId, itemStep.usedAmount));
             } else

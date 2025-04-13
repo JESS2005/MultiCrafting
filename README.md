@@ -17,6 +17,7 @@ A terraria mod to see all the items required for a crafting recipe, the relative
 - [ ] Rework recipe with a dict (faster)
 - [ ] Avoid needless item destruction (don't use all owned items)
 - [ ] Sort ingredients page
+- [ ] Show which group item it's detecting
 ---
 # Update history
 ## 1.0

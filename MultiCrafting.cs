@@ -25,6 +25,9 @@ using ReLogic.Content;
  * avoid needless item destruction (check owned)
  * sort ingredients page
  * favourite page
+ * 
+ * 
+ * recipe doesn't work with external groups (it's checked after, decomposer line 186, should be list not dict and just enable groups)
 */
 
 namespace MultiCrafting
@@ -205,7 +208,8 @@ namespace MultiCrafting
 
             foreach (KeyValuePair<int, int> group in Groups)
             {
-                mainRecipe.AddRecipeGroup(group.Key,group.Value);
+                //mainRecipe.AddRecipeGroup(group.Key,group.Value);
+                mainRecipe.acceptedGroups.Add(group.Key);
             }
         }
         public static void AddCustomTiles(List<int> Tiles)
