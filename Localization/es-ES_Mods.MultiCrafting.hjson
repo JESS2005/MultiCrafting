@@ -1,0 +1,97 @@
+Keybinds.SetRecipe.DisplayName: Buscar receta/mostrar árbol de receta
+
+Configs: {
+	CraftingConfig: {
+		DisplayName: Configuración de elaboración
+
+		Headers: {
+			RecipeSettings: Configuración de recetas
+			LineSettings: Ajustes de línea
+			DebugSettings: Configuración de depuración/debug
+		}
+
+		AllowWhenTyping: {
+			Label: Permitir al escribir
+			Tooltip: ""
+		}
+
+		MaxIngredients: {
+			Label: Cantidad máxima de ingredientes visibles
+			Tooltip:
+				'''
+				Si una receta está hecha de 5 ingredientes distintos y el valor de
+				esta opción está en 3, solo mostrará 3 ingredientes de los 5 que tiene la receta.
+				Los cambios solo afectan a la opción [c/f4d58d:Ingredients checklist]
+				'''
+		}
+
+		MaxCraftingSteps: {
+			Label: Pasos máximos de elaboración
+			Tooltip:
+				'''
+				Cantidad máxima de pasos que serán mostrados en el árbol de recetas.
+				Si una receta necesita 5 pasos para ser elaborada, pero el valor de la opción es de 2,
+				solo mostrará 2 pasos de los 5 pasos necesarios para terminar la receta.
+				Los cambios solo afectan a la opción [c/f4d58d:View tree]
+				'''
+		}
+
+		AllowBannerUse: {
+			Label: Permitir el uso del banner
+			Tooltip:
+				'''
+				Habilita/deshabilita el uso de banners en la receta
+				(Principalmente útil con [c/f4d58d:Fargo])
+				'''
+		}
+
+		StopWhenOwned: {
+			Label: Detener al obtener
+			Tooltip: El mod no generará recetas de objetos que ya has obtenido
+		}
+
+		VisualizeTree: {
+			Label: Visualizar árbol
+			Tooltip:
+				'''
+				Aumenta el lag al generar la receta, así como los ingredientes percibidos
+				Si desactivas esta opción, no podrás ver el árbol de recetas sin importar si usas la tecla para mostrarlo
+				'''
+		}
+
+		GenerateRecipe: {
+			Label: Generar receta
+			Tooltip: Agrega una receta que te permite hacer el objeto directamente con sus ingredientes
+		}
+
+		ShowOwnedOnTree: {
+			Label: Mostrar propiedad en el árbol
+			Tooltip: Cambia el color del árbol según si tienes o no los objetos.
+		}
+
+		HorizontalLineThickness: {
+			Label: Grosor de línea horizontal
+			Tooltip: ""
+		}
+
+		VerticalLineThickness: {
+			Label: Grosor de línea vertical
+			Tooltip: ""
+		}
+
+		LineColor: {
+			Label: Color de la línea
+			Tooltip: ""
+		}
+
+		EnableLogging: {
+			Label: Habilitar registro/Logging
+			Tooltip:
+				'''
+				Agrega algunos registros al archivo [c/f4d58d:client.log].
+				Esta opción sirve para enviar el archivo [c/f4d58d:client.log] al desarrollador del mod y
+				facilitar el arreglo de errores/bugs cuando son reportados.
+				'''
+		}
+	}
+}
