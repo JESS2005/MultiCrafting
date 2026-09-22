@@ -42,6 +42,9 @@ A terraria mod to see all the items required for a crafting recipe, the relative
  - Added warning when using magic storage's recursive crafting.
  - Fixed mod using it's own recipe.
 
-**1.2.1**
+**1.2.2**
  - Fixed locked scrollwheel with ui closed.
  - Fixed recipe groups not appearing in crafting recipe.
+
+**1.2.3**
+ - Spanish translation (thanks to [Elocura](https://github.com/Elocura))
